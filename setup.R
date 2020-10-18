@@ -6,9 +6,5 @@ bootstrap.libraries <- c("here","bookdown")
 
 results <- sapply(as.list(bootstrap.libraries), pkgTest)
 
-# github packages
-install.packages("remotes")
-
-remotes::install_github("coolbutuseless/ggpattern",upgrade="never")
 
 
