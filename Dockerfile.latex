@@ -1,0 +1,5 @@
+FROM larsvilhuber/ideahandbook
+
+RUN apt update && apt install -y texlive-fonts-extra
+RUN apt install -y texlive-bibtex-extra
+
